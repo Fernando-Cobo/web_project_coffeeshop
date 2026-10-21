@@ -90,15 +90,6 @@
   color: #2f80ed;
 }
 
-.header__hours {
-  font-family: "Inter";
-  font-style: normal;
-  font-weight: 500;
-  font-size: 16px;
-  line-height: 20px;
-  color: #838383;
-}
-
 .header__hours-content {
   display: flex;
   flex-direction: column;
@@ -111,7 +102,7 @@
   align-items: flex-end;
 }
 
-.header__address {
+.header__paragraph {
   margin: 0;
   font-family: "Inter";
   font-style: normal;
@@ -121,12 +112,12 @@
   color: #838383;
 }
 
-.Recipes {
+.recipes {
   background-color: #0a2850;
   background-image: url("../images/background_recipes.svg");
 }
 
-.Recipes__title {
+.recipes__title {
   font-family: "Inter";
   font-style: normal;
   font-weight: 500;
@@ -137,7 +128,7 @@
   padding: 100px 0 24px 80px;
 }
 
-.Recipes__subtitle {
+.recipes__subtitle {
   color: #fff;
   font-family: "Noto Serif";
   font-style: normal;
