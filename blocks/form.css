@@ -46,3 +46,11 @@
   height: 20px;
   color: #2f80ed;
 }
+
+.form__fieldset {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  max-width: 385px;
+  margin: 0 auto;
+}
