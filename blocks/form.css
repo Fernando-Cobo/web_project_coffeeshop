@@ -11,6 +11,7 @@
   padding: 15px 20px;
   margin-top: 8px;
   box-sizing: border-box;
+  margin-bottom: 32px;
 }
 
 .form__label_type_checkbox {
@@ -25,7 +26,7 @@
   flex-direction: column;
   max-width: 385px;
   height: 60px;
-  margin: 32px 0 32px;
+  margin: 0 0 32px;
   font-family: "Inter";
   font-style: normal;
   font-weight: 500;
@@ -33,7 +34,9 @@
   line-height: 20px;
   background-color: #2f80ed;
   color: #fff;
-  padding-top: 15px;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
 }
 
 .form__button:hover {
@@ -53,4 +56,6 @@
   justify-content: center;
   max-width: 385px;
   margin: 0 auto;
+  padding: 0;
+  border: 0;
 }
